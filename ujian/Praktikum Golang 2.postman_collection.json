@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "97602b90-a45f-4793-9cb7-539d02509971",
+		"name": "Praktikum Golang 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24513776"
+	},
+	"item": [
+		{
+			"name": "lihatPelanggan",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "tambahPelanggan",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"Pel_ID\": 1,\r\n        \"Pel_Nama\": \"ahmad\",\r\n        \"Pel_JK\": 1,\r\n        \"Pel_Alamat\": \"bekasi\",\r\n        \"Pel_HP\": \"081297424575\",\r\n        \"Pel_KTP\": \"3216191504970002\",\r\n        \"Pel_Tgllhr\": \"1997-04-15T00:00:00Z\",\r\n        \"Pel_Tmptlhr\": \"pekalongan\",\r\n        \"Pel_Create\": \"2022-11-26T00:00:00Z\",\r\n        \"Pel_Update\": \"2022-11-26T00:00:00Z\"\r\n    },\r\n    {\r\n        \"Pel_ID\": 2,\r\n        \"Pel_Nama\": \"azhar\",\r\n        \"Pel_JK\": 1,\r\n        \"Pel_Alamat\": \"cakung\",\r\n        \"Pel_HP\": \"081211223344\",\r\n        \"Pel_KTP\": \"123443211234\",\r\n        \"Pel_Tgllhr\": \"1999-11-08T00:00:00Z\",\r\n        \"Pel_Tmptlhr\": \"jakarta\",\r\n        \"Pel_Create\": \"2022-11-26T00:00:00Z\",\r\n        \"Pel_Update\": \"2022-11-26T00:00:00Z\"\r\n    },\r\n    {\r\n        \"Pel_ID\": 3,\r\n        \"Pel_Nama\": \"nika\",\r\n        \"Pel_JK\": 1,\r\n        \"Pel_Alamat\": \"bekasi\",\r\n        \"Pel_HP\": \"08112233445566\",\r\n        \"Pel_KTP\": \"234554322345\",\r\n        \"Pel_Tgllhr\": \"1998-12-08T00:00:00Z\",\r\n        \"Pel_Tmptlhr\": \"rembang\",\r\n        \"Pel_Create\": \"2022-11-26T00:00:00Z\",\r\n        \"Pel_Update\": \"2022-11-26T00:00:00Z\"\r\n    },\r\n    {\r\n        \"Pel_ID\": 4,\r\n        \"Pel_Nama\": \"yusuf\",\r\n        \"Pel_JK\": 1,\r\n        \"Pel_Alamat\": \"pulogadung\",\r\n        \"Pel_HP\": \"08122233445566\",\r\n        \"Pel_KTP\": \"345665433456\",\r\n        \"Pel_Tgllhr\": \"1999-03-08T00:00:00Z\",\r\n        \"Pel_Tmptlhr\": \"jakarta\",\r\n        \"Pel_Create\": \"2022-11-26T00:00:00Z\",\r\n        \"Pel_Update\": \"2022-11-26T00:00:00Z\"\r\n    },\r\n    {\r\n        \"Pel_ID\": 5,\r\n        \"Pel_Nama\": \"rehan\",\r\n        \"Pel_JK\": 1,\r\n        \"Pel_Alamat\": \"bekasi\",\r\n        \"Pel_HP\": \"089988778877\",\r\n        \"Pel_KTP\": \"998877887777\",\r\n        \"Pel_Tgllhr\": \"2000-04-04T00:00:00Z\",\r\n        \"Pel_Tmptlhr\": \"jakarta\",\r\n        \"Pel_Create\": \"2022-11-26T00:00:00Z\",\r\n        \"Pel_Update\": \"2022-11-26,T00:00:00Z\"\r\n    },\r\n    {\r\n        \"Pel_ID\": 6,\r\n        \"Pel_Nama\": \"yuli\",\r\n        \"Pel_JK\": 0,\r\n        \"Pel_Alamat\": \"bekasi\",\r\n        \"Pel_HP\": \"08777788777788\",\r\n        \"Pel_KTP\": \"556776655455\",\r\n        \"Pel_Tgllhr\": \"1999-11-08T00:00:00Z\",\r\n        \"Pel_Tmptlhr\": \"bekasi\",\r\n        \"Pel_Create\": \"2022-11-26T00:00:00Z\",\r\n        \"Pel_Update\": \"2022-11-26T00:00:00Z\"\r\n    },\r\n    {\r\n        \"Pel_ID\": 7,\r\n        \"Pel_Nama\": \"evita\",\r\n        \"Pel_JK\": 0,\r\n        \"Pel_Alamat\": \"cikarang\",\r\n        \"Pel_HP\": \"009944553366\",\r\n        \"Pel_KTP\": \"556677743334\",\r\n        \"Pel_Tgllhr\": \"1999-02-26T00:00:00Z\",\r\n        \"Pel_Tmptlhr\": \"cilacap\",\r\n        \"Pel_Create\": \"2022-11-26T00:00:00Z\",\r\n        \"Pel_Update\": \"2022-11-26T00:00:00Z\"\r\n    },\r\n    {\r\n        \"Pel_ID\": 8,\r\n        \"Pel_Nama\": \"judin\",\r\n        \"Pel_JK\": 1,\r\n        \"Pel_Alamat\": \"jakarta\",\r\n        \"Pel_HP\": \"087788556677\",\r\n        \"Pel_KTP\": \"33445544554\",\r\n        \"Pel_Tgllhr\": \"1999-08-08T00:00:00Z\",\r\n        \"Pel_Tmptlhr\": \"jakarta\",\r\n        \"Pel_Create\": \"2022-11-26T00:00:00Z\",\r\n        \"Pel_Update\": \"2022-11-26T00:00:00Z\"\r\n    },\r\n    {\r\n        \"Pel_ID\": 9,\r\n        \"Pel_Nama\": \"munir\",\r\n        \"Pel_JK\": 1,\r\n        \"Pel_Alamat\": \"bekasi\",\r\n        \"Pel_HP\": \"089775533544\",\r\n        \"Pel_KTP\": \"776633222222\",\r\n        \"Pel_Tgllhr\": \"1990-01-01T00:00:00Z\",\r\n        \"Pel_Tmptlhr\": \"jakarta\",\r\n        \"Pel_Create\": \"2022-11-26T00:00:00Z\",\r\n        \"Pel_Update\": \"2022-11-26T00:00:00Z\"\r\n    },\r\n    {\r\n        \"Pel_ID\": 10,\r\n        \"Pel_Nama\": \"rangga\",\r\n        \"Pel_JK\": 1,\r\n        \"Pel_Alamat\": \"bekasi\",\r\n        \"Pel_HP\": \"08443344333\",\r\n        \"Pel_KTP\": \"2288776644\",\r\n        \"Pel_Tgllhr\": \"1990-07-09T00:00:00Z\",\r\n        \"Pel_Tmptlhr\": \"jakarta\",\r\n        \"Pel_Create\": \"2022-11-26T00:00:00Z\",\r\n        \"Pel_Update\": \"2022-11-26T00:00:00Z\"\r\n    }\r\n]"
+				},
+				"url": {
+					"raw": "http://localhost:3000/tambahpelanggan",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tambahpelanggan"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lihatPelangganID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/pelanggan/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pelanggan",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hapusPelanggan",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/hapuspelanggan/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"hapuspelanggan",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
